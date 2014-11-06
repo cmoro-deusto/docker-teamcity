@@ -1,0 +1,6 @@
+teamcity:
+ image: dordoka/teamcity
+ ports:
+  - "8111:8111"
+ volumes:
+  - "/opt/teamcity:/data/teamcity"
